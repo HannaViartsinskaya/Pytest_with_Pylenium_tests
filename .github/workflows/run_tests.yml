@@ -26,4 +26,4 @@ jobs:
 
       - name: Run E2E Tests
         run: |
-          poetry run pytest tests/test_example.py
+          poetry run pytest tests/test_todo.py -n 2
