@@ -8,15 +8,16 @@ To run the tests locally, ensure you have the following installed:
 
 - Python 3.11.8
 - Poetry (Python dependency management tool)
-- Google Chrome browser
 
 **Installation and Setup**
 
-1. Clone the Repository:
+1. Clone the Repository
 2. Install Dependencies:
 Make sure you have Poetry installed. If not, you can install it using:
+```python
 pip install poetry
+```
 Then, run the following command to install the project's dependencies:
+```python
 poetry install
-3. Verify Chrome Installation (or just use another browser for running tests):
-Ensure that Google Chrome is installed on your system and accessible via the command line.
+```
