@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pytest2"
+version = "0.1.0"
+description = ""
+authors = ["hannanasi <vertinskaya95@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pyleniumio = "^1.21.0"
+autopep8 = "^2.3.1"
+flake8 = "^7.1.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
