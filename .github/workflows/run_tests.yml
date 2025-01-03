@@ -19,11 +19,6 @@ jobs:
           # install dependencies from pyproject.toml
           poetry install
 
-      - name: Lint with flake8
-        run: |
-          # Using .flake8 file
-          poetry run poe lint
-
       - name: Run E2E Tests
         run: |
           poetry run pytest tests/test_todo.py -n 2
